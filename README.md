@@ -2,7 +2,8 @@ Nama Kelompok =
 1. Fika Triana
 2. Patricia Matthea Jovena
 
-Requirement =
+Requirement 
+
 blinker==1.7.0
 certifi==2024.2.2
 charset-normalizer==3.3.2
