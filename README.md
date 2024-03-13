@@ -2,6 +2,11 @@ Nama Kelompok =
 1. Fika Triana
 2. Patricia Matthea Jovena
 
+Dari daftar tersebut, kita dapat mengidentifikasi:
+
+- Daftar Library : Terdapat dalam folder flask_venv dan venv melalui file requirements.txt, serta dalam file requirements.txt.
+- Daftar Fitur Tambahan : Terdapat dalam folder templates berupa file-template HTML yang digunakan dalam proyek Flask.
+
 Requirement 
 
 blinker==1.7.0
