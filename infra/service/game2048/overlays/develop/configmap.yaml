@@ -4,4 +4,4 @@ data:
   
 kind: ConfigMap
 metadata: 
-  name: game2048-config
+  name: minpro-config
