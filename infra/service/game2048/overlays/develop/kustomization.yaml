@@ -6,8 +6,8 @@ resources:
   # - "configmap.yaml"
   # - "sealed-secret.yaml"
 images:
-  - name: alekseykudr/game2048
-    newTag: v1.2
+  - name: patriciajovena/minpro-syseng
+    newTag: latest
 # patchesJson6902:
 #   - target:
 #       group: apps
