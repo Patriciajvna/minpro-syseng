@@ -2,9 +2,9 @@
   path: /spec/template/spec/containers/0/envFrom
   value:
     - configMapRef:
-        name: game2048-config
+        name: minpro-config
     - secretRef:
-        name: game2048-secret
+        name: minpro-secret
 # - op: add
 #   path: /spec/template/spec/nodeSelector
 #   value:
