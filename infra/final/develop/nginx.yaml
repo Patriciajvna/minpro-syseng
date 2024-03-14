@@ -1,17 +1,17 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: game2048-ingress
+  name: minpro-ingress
 spec:
   rules:
-  - host: game2048.shamirhusein.my.id
+  - host: minpro.shamirhusein.my.id
     http:
       paths:
       - path: /
         pathType: Prefix
         backend:
           service:
-            name: game2048-svc
+            name: minpro-svc
             port: 
               number: 80
   ingressClassName: nginx
