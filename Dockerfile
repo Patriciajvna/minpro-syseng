@@ -8,7 +8,7 @@ RUN pip install -r requirements.txt
 
 COPY . /app
 
-EXPOSE 5000
+EXPOSE 8000
 
 ENV FLASK_APP=app.py
 
