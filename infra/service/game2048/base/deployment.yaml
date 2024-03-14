@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: game2048
+  name: minpro
 spec:
   selector:
     matchLabels:
-      app: game2048
+      app: minpro
   template:
     metadata:
       labels:
-        app: game2048
+        app: minpro
     spec:
       containers:
-      - name: game2048
-        image: alekseykudr/game2048:v1.2
+      - name: minpro
+        image: patriciajovena/minpro-syseng:latest
         imagePullPolicy: Always
         resources:
           requests:
@@ -23,7 +23,7 @@ spec:
             memory: "500Mi"
             cpu: "500m"
         ports:
-        - containerPort: 8080
+        - containerPort: 8000
         # livenessProbe:
         #   httpGet:
         #     path: "/v1/ping"
@@ -42,10 +42,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: game2048-svc
+  name: minpro-svc
 spec:
   selector:
-    app: game2048
+    app: minpro
   ports:
   - port: 80
-    targetPort: 8080
+    targetPort: 8000
